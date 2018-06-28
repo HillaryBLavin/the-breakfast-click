@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "John Bender",
+    "image": "/assets/images/john.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Claire Standish",
+    "image": "/assets/images/claire.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Andrew Clark",
+    "image": "/assets/images/andrew.png"
+  },
+  {
+    "id": 4,
+    "name": "Allison Reynolds",
+    "image": "/assets/images/allison.png"
+  },
+  {
+    "id": 5,
+    "name": "Brian Johnson",
+    "image": "/assets/images/brian.png"
+  }
+]

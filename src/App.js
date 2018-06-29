@@ -4,6 +4,7 @@ import Title from "./components/Title";
 import CardWrapper from "./components/CardWrapper";
 import characters from "./characters.json"
 import './App.css';
+import CharacterCard from './components/CharacterCard';
 
 class App extends Component {
     state = {
@@ -35,6 +36,14 @@ class App extends Component {
           score: ++score
         })
       }
+      if (this.state.score > 5) {
+        this.setState({
+          message: "You Won! Click a character to play again!",
+          guessArray: [],
+          score: 0
+        })
+      }
+    
     };
   
   render() {
@@ -46,10 +55,16 @@ class App extends Component {
           topScore={this.state.topScore}
         />
         <Title />
-        <CardWrapper 
-          characters={this.state.characters}
-          handleClick={this.handleClick}
-        />
+        <CardWrapper>
+          {characters.sort((a,b) => 0.5 - Math.random()).map(randomCard => (
+            <CharacterCard
+              handleClick={this.handleClick}
+              id={randomCard.id}
+              key={randomCard.id}
+              image={randomCard.image} />
+          ))}
+        </CardWrapper>
+        {/* <Footer /> */}
       </div>
     );
   }

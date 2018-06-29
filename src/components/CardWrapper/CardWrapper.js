@@ -1,12 +1,11 @@
 import React from 'react';
-import { Container } from 'reactstrap';
-import CharacterCard from '../CharacterCard';
+import { Container, Row } from 'reactstrap';
 
 const CardWrapper = props =>
   <Container>
-    <div className="character-div">
-      <CharacterCard />
-    </div>
+    <Row className="d-flex justify-content-center">
+    {props.children}
+    </Row>
   </Container>
 
   export default CardWrapper;

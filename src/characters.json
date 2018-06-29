@@ -2,26 +2,26 @@
   {
     "id": 1,
     "name": "John Bender",
-    "image": "../public/assets/images/john.jpg"
+    "image": "./public/assets/images/john.jpg"
   },
   {
     "id": 2,
     "name": "Claire Standish",
-    "image": "../public/assets/images/claire.jpg"
+    "image": "./public/assets/images/claire.jpg"
   },
   {
     "id": 3,
     "name": "Andrew Clark",
-    "image": "../public/assets/images/andrew.png"
+    "image": "./public/assets/images/andrew.png"
   },
   {
     "id": 4,
     "name": "Allison Reynolds",
-    "image": "../public/assets/images/allison.png"
+    "image": "./public/assets/images/allison.png"
   },
   {
     "id": 5,
     "name": "Brian Johnson",
-    "image": "../public/assets/images/brian.png"
+    "image": "./public/assets/images/brian.png"
   }
 ]

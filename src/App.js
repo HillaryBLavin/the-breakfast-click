@@ -36,7 +36,7 @@ class App extends Component {
           score: ++score
         })
       }
-      if (this.state.score > 5) {
+      if (score === 5) {
         this.setState({
           message: "You Won! Click a character to play again!",
           guessArray: [],

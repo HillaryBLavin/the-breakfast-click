@@ -8,7 +8,7 @@ const Title = (props) => {
       <Jumbotron fluid className="jumbo">
         <Container fluid>
           <h1 className="display-3 text-center">The Breakfast Click</h1>
-          <p className="lead text-center">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <p className="lead text-center">Click on each delinquent teenager once to win the game! If you click on anyone twice, it's back to start.</p>
         </Container>
       </Jumbotron>
     </div>
